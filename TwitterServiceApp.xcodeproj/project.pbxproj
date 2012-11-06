@@ -16,13 +16,19 @@
 		ADB34D141649742C006A8394 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB34D131649742C006A8394 /* Default.png */; };
 		ADB34D161649742C006A8394 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB34D151649742C006A8394 /* Default@2x.png */; };
 		ADB34D181649742C006A8394 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADB34D171649742C006A8394 /* Default-568h@2x.png */; };
+		ADB34D2B16497508006A8394 /* DXTwitterService.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB34D2A16497508006A8394 /* DXTwitterService.m */; };
+		ADB34D2F1649759C006A8394 /* DXTwittetPostTweetIntent.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB34D2E1649759C006A8394 /* DXTwittetPostTweetIntent.m */; };
+		ADB34D32164975DB006A8394 /* DXTwitterServiceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB34D31164975DB006A8394 /* DXTwitterServiceProvider.m */; };
+		ADB34D3416497690006A8394 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB34D3316497690006A8394 /* Twitter.framework */; };
+		ADB34D37164976FB006A8394 /* RootControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB34D36164976FB006A8394 /* RootControllerViewController.m */; };
+		CB074D8B5B8E4BA2B976199E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BA8B2EAA3B4BCAACE8F494 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADB34CFD1649742C006A8394 /* TwitterServiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterServiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADB34D011649742C006A8394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		ADB34D031649742C006A8394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		ADB34D051649742C006A8394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ADB34D011649742C006A8394 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ADB34D031649742C006A8394 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADB34D051649742C006A8394 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ADB34D091649742C006A8394 /* TwitterServiceApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterServiceApp-Info.plist"; sourceTree = "<group>"; };
 		ADB34D0B1649742C006A8394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ADB34D0D1649742C006A8394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -32,6 +38,17 @@
 		ADB34D131649742C006A8394 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ADB34D151649742C006A8394 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ADB34D171649742C006A8394 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ADB34D2916497508006A8394 /* DXTwitterService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXTwitterService.h; sourceTree = "<group>"; };
+		ADB34D2A16497508006A8394 /* DXTwitterService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXTwitterService.m; sourceTree = "<group>"; };
+		ADB34D2D1649759C006A8394 /* DXTwittetPostTweetIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXTwittetPostTweetIntent.h; sourceTree = "<group>"; };
+		ADB34D2E1649759C006A8394 /* DXTwittetPostTweetIntent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXTwittetPostTweetIntent.m; sourceTree = "<group>"; };
+		ADB34D30164975DB006A8394 /* DXTwitterServiceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXTwitterServiceProvider.h; sourceTree = "<group>"; };
+		ADB34D31164975DB006A8394 /* DXTwitterServiceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXTwitterServiceProvider.m; sourceTree = "<group>"; };
+		ADB34D3316497690006A8394 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		ADB34D35164976FB006A8394 /* RootControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootControllerViewController.h; sourceTree = "<group>"; };
+		ADB34D36164976FB006A8394 /* RootControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootControllerViewController.m; sourceTree = "<group>"; };
+		AFFCCC4B441E46219AB30775 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F0BA8B2EAA3B4BCAACE8F494 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +56,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB34D3416497690006A8394 /* Twitter.framework in Frameworks */,
 				ADB34D021649742C006A8394 /* UIKit.framework in Frameworks */,
 				ADB34D041649742C006A8394 /* Foundation.framework in Frameworks */,
 				ADB34D061649742C006A8394 /* CoreGraphics.framework in Frameworks */,
+				CB074D8B5B8E4BA2B976199E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +70,11 @@
 		ADB34CF21649742C006A8394 = {
 			isa = PBXGroup;
 			children = (
+				ADB34D3316497690006A8394 /* Twitter.framework */,
 				ADB34D071649742C006A8394 /* TwitterServiceApp */,
 				ADB34D001649742C006A8394 /* Frameworks */,
 				ADB34CFE1649742C006A8394 /* Products */,
+				AFFCCC4B441E46219AB30775 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +92,7 @@
 				ADB34D011649742C006A8394 /* UIKit.framework */,
 				ADB34D031649742C006A8394 /* Foundation.framework */,
 				ADB34D051649742C006A8394 /* CoreGraphics.framework */,
+				F0BA8B2EAA3B4BCAACE8F494 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,6 +103,14 @@
 				ADB34D101649742C006A8394 /* AppDelegate.h */,
 				ADB34D111649742C006A8394 /* AppDelegate.m */,
 				ADB34D081649742C006A8394 /* Supporting Files */,
+				ADB34D2916497508006A8394 /* DXTwitterService.h */,
+				ADB34D2A16497508006A8394 /* DXTwitterService.m */,
+				ADB34D2D1649759C006A8394 /* DXTwittetPostTweetIntent.h */,
+				ADB34D2E1649759C006A8394 /* DXTwittetPostTweetIntent.m */,
+				ADB34D30164975DB006A8394 /* DXTwitterServiceProvider.h */,
+				ADB34D31164975DB006A8394 /* DXTwitterServiceProvider.m */,
+				ADB34D35164976FB006A8394 /* RootControllerViewController.h */,
+				ADB34D36164976FB006A8394 /* RootControllerViewController.m */,
 			);
 			path = TwitterServiceApp;
 			sourceTree = "<group>";
@@ -109,6 +139,7 @@
 				ADB34CF91649742C006A8394 /* Sources */,
 				ADB34CFA1649742C006A8394 /* Frameworks */,
 				ADB34CFB1649742C006A8394 /* Resources */,
+				BF92B8A384084D89A68F7E33 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +190,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF92B8A384084D89A68F7E33 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ADB34CF91649742C006A8394 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,6 +214,10 @@
 			files = (
 				ADB34D0E1649742C006A8394 /* main.m in Sources */,
 				ADB34D121649742C006A8394 /* AppDelegate.m in Sources */,
+				ADB34D2B16497508006A8394 /* DXTwitterService.m in Sources */,
+				ADB34D2F1649759C006A8394 /* DXTwittetPostTweetIntent.m in Sources */,
+				ADB34D32164975DB006A8394 /* DXTwitterServiceProvider.m in Sources */,
+				ADB34D37164976FB006A8394 /* RootControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +287,7 @@
 		};
 		ADB34D1C1649742C006A8394 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFCCC4B441E46219AB30775 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterServiceApp/TwitterServiceApp-Prefix.pch";
@@ -246,6 +299,7 @@
 		};
 		ADB34D1D1649742C006A8394 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFCCC4B441E46219AB30775 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TwitterServiceApp/TwitterServiceApp-Prefix.pch";
@@ -274,6 +328,7 @@
 				ADB34D1D1649742C006A8394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
