@@ -9,8 +9,18 @@
 #import "DXTwitterService.h"
 #import "DXTwittetPostTweetIntent.h"
 #import "DXTwitterServiceProvider.h"
+#import <DXServices/DXServiceIntentProviderMapping.h>
 
 @implementation DXTwitterService
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        [[DXServiceIntentProviderMapping shared] addMappingFromIntentClass:[DXTwittetPostTweetIntent class] toProviderClass:[DXTwitterServiceProvider class]];
+    }
+    return self;
+}
 
 - (id <DXServiceProvider>)serviceProviderForIntentClass:(Class)IntentClass
 {
